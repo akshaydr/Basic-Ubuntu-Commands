@@ -16,7 +16,7 @@ source ~/.bashrc
 ### Bind USB device under a static name
 
 Add some udev rules. 
-Edit the /etc/udev/rules.d/10-local.rules to contain:
+Edit the `/etc/udev/rules.d/10-local.rules` to contain:
 ```
 ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", SYMLINK+="my_uart"
 ```
