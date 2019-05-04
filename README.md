@@ -6,6 +6,8 @@ Basic commands usually helpful when ubuntu is set up newly.
 sudo chmod 777 /dev/ttyUSB0
 sudo usermod -aG dialout username
 ```
+Replace username with your username and then logout and login to apply the changes.
+
 ### Terminal History Up Arrow setup
 ```
 gedit ~/.bashrc
