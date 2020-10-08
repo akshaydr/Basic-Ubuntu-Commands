@@ -65,3 +65,7 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
 ```
 Restart RaspberryPi.
+
+
+### Troubleshoot MATLAB
+https://uk.mathworks.com/matlabcentral/answers/142271-matlab-seems-to-install-fine-but-will-not-run-in-ubuntu-14-04-no-error-message-provided
